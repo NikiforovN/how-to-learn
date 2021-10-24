@@ -291,6 +291,8 @@ left: 0;
 }
 .footer__columns_direcrion_row{
   flex-direction: row;
+  display: flex;
+  position: relative;
 }
 .footer__column_content_copyright{
   display: flex;
@@ -310,10 +312,6 @@ left: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-.footer__columns_direcrion_row{
-  display: flex;
-  position: relative;
 }
 .footer__column_content_info{
 margin:0 auto;
